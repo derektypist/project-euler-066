@@ -68,6 +68,8 @@ Ensure all user stories have been met.  Do a preview at:
 
 `python3 -m http.server`
 
+Select Open Preview or Open Browser.  Input the values and Submit.  Select the Reset Button - should allow the information to be cleared or to start again.  If any or all the user stories have not been met, check typing.  Press CTRL+C to quit.
+
 ## Deployment
 
 Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-066) at the main branch.
