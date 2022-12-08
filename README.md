@@ -54,3 +54,32 @@ User Stories on function `diophantineEquation(n)` taken from [FreeCodeCamp - Cod
 
 The function `diophantineEquation(n)` returns a number, where n is a number between 2 and 1000.
 
+## Features
+
+Allows the user to enter a number in order to find the value of D less than or equal to that number in minimal solutions of x for which the largest value of x is obtained.  Performs checks on valid user input.  If the input is invalid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript with BigInt, Bootstrap 5.2.3 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.  Do a preview at:
+
+`python3 -m http.server`
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-066) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
+
