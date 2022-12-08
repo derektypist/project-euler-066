@@ -26,5 +26,22 @@
         <p>Hence, by considering minimal solutions in x for D &le; 7, the largest x is obtained when D = 5.</p>
         <p>Find the value of D &le; n in minimal solutions of x for which the largest value of x is obtained.  Begin by entering a number.</p>
     </section>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mynumber" class="form-label">Number (Required)</label>
+                <input class="form-control" title="Enter whole number between 2 and 1000 (without leading zeros)" placeholder="Enter whole number between 2 and 1000 (without leading zeros)" id="mynumber">
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" class="btn btn-info" onclick="getNumberInfo()">Submit</button>
+                <button type="reset" class="btn btn-warning" onclick="clearInfo()">Reset</button>
+            </article>
+        </form>
+    </section>
 </body>
 </html>
