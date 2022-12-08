@@ -26,6 +26,16 @@ Enter a whole number between 2 and 1000 (without leading zeros) and select the S
 
 **User Stories**
 
+As a user, I expect to get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number
+- Entering a number less than 2 or greater than 1000
+- Including leading zeros such as 02
+- Entering a number, but it is not an integer
+
+As a user, if I select the Reset Button, I can clear the information or start again.
+
 As a user, I expect the function `diophantineEquation(7)` to return a number.
 
 As a user, I expect the function `diophantineEquation(7)` to return 5.
@@ -42,5 +52,5 @@ User Stories on function `diophantineEquation(n)` taken from [FreeCodeCamp - Cod
 
 **Information Architecture**
 
-The function `diophantineEquation(n)` returns a number, where n is a number.
+The function `diophantineEquation(n)` returns a number, where n is a number between 2 and 1000.
 
