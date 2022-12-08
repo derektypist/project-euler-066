@@ -20,6 +20,10 @@ Information at [Project Euler 066](https://projecteuler.net/problem=66)
 
 ## UX
 
+**Getting Started**
+
+Enter a whole number between 2 and 1000 (without leading zeros) and select the Submit Button.  You will see the value of D for which the largest x is obtained, where D is less than or equal to the number entered.  For example, if you entered 7, you would expect the value of D to be 5.  If you have made an invalid input, you will get an error message.  Select the Reset Button to clear the information or to start again. 
+
 **User Stories**
 
 As a user, I expect the function `diophantineEquation(7)` to return a number.
